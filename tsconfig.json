@@ -1,0 +1,10 @@
+{
+  // where the typescript files are
+  "include": ["src"],
+  "compilerOptions": {
+    // where the javascript is going to go
+    "outDir": "build",
+    // specify the version of javascript that is compiled to
+    "target": "ES6"
+  }
+}
