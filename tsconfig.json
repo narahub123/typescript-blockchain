@@ -4,13 +4,12 @@
   "compilerOptions": {
     // where the javascript is going to go
     "outDir": "build",
-    "esModuleInterop": true,
     // specify the version of javascript that is compiled to
     "target": "ES6",
     // specify a set of declaration files that describes the target runtime environment
-    "lib": ["ES6", "DOM"],
+    "lib": ["ES6"],
     "strict": true,
-    // allow JavaScript
-    "allowJs": true
+    "esModuleInterop": true,
+    "module": "CommonJS"
   }
 }
