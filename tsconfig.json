@@ -5,6 +5,8 @@
     // where the javascript is going to go
     "outDir": "build",
     // specify the version of javascript that is compiled to
-    "target": "ES6"
+    "target": "ES6",
+    // specify a set of declaration files that describes the target runtime environment
+    "lib": ["ES6", "DOM"]
   }
 }
